@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "../../components/ui/button";
 import { Card } from "../../components/ui/card";
 import { ContactSection } from "./sections/ContactSection";
@@ -9,13 +8,6 @@ import { InvestorSection } from "./sections/InvestorSection";
 import { ServicesSection } from "./sections/ServicesSection";
 
 export const Home = (): JSX.Element => {
-  const paginationDots = [
-    { active: true },
-    { active: false },
-    { active: false },
-    { active: false },
-  ];
-
   return (
     <div className="bg-white flex flex-col items-center w-full">
       <div className="bg-white w-full max-w-[1440px] relative overflow-hidden">
@@ -69,29 +61,6 @@ export const Home = (): JSX.Element => {
           {/* Contact Section */}
           <ContactSection />
 
-          {/* Pagination Dots */}
-          <div className="flex items-center justify-center gap-2 mt-6 mb-6">
-            {paginationDots.map((dot, index) => (
-              <div
-                key={index}
-                className={`w-2 h-2 bg-labelsprimary rounded-full ${
-                  dot.active ? "" : "opacity-30"
-                }`}
-              />
-            ))}
-          </div>
-
-          {/* Navigation Controls */}
-          <div className="w-full max-w-[1232px] h-6 mt-6 flex justify-between px-4">
-            <div className="w-[22px] h-6 rotate-180">
-              <img
-                className="w-full h-full -rotate-180"
-                alt="Previous"
-                src="https://c.animaapp.com/DzXLCUcv/img/frame-1.svg"
-              />
-            </div>
-            <div className="w-[22px] h-6 bg-[url(https://c.animaapp.com/DzXLCUcv/img/frame.svg)] bg-contain bg-no-repeat" />
-          </div>
         </div>
       </div>
     </div>

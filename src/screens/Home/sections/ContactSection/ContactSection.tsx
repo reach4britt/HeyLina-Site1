@@ -4,8 +4,6 @@ import {
   LinkedinIcon,
   TwitterIcon,
 } from "lucide-react";
-import React from "react";
-import { Separator } from "../../../../components/ui/separator";
 
 export const ContactSection = (): JSX.Element => {
   const socialLinks = [
@@ -136,7 +134,6 @@ export const ContactSection = (): JSX.Element => {
         </div>
       </div>
 
-      <Separator className="mt-12 border-t border-[#8081874f]" />
     </section>
   );
 };
