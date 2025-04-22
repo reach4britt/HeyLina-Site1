@@ -142,7 +142,8 @@ export const FAQSection = (): JSX.Element => {
                   />
                   <Button
                     type="submit"
-                    className="rounded-[18px] bg-white text-[#5124c5] font-bold hover:bg-[#f0eaff] transition-all duration-200 w-full h-12"
+                    className="rounded-[18px] bg-white text-[#5124c5] font-bold hover:bg-[#f0eaff] transition-all duration-200 w-full h-12 plausible-event-name=Get+Early+Access"
+
                   >
                     Get Early Access – Limited to 200 Users
                   </Button>

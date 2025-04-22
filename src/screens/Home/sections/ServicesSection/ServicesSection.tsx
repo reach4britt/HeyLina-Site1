@@ -62,10 +62,6 @@ export const ServicesSection = (): JSX.Element => {
             <div className="flex flex-col md:flex-row gap-10">
               {/* Left side - Text content */}
               <div className="w-full md:w-1/2 space-y-6">
-                <Button className="bg-white text-[#3e1f7c] font-bold text-sm sm:text-[18.4px] rounded-[6.28px] shadow h-[46px] sm:h-[51px] w-[140px] sm:w-[152px]">
-                  Investors
-                </Button>
-
                 <h2 className="text-2xl sm:text-3xl md:text-[40.4px] leading-snug text-white font-semibold">
                   We are looking for{" "}
                   <span className="font-extrabold text-[#f5f0ff]">
@@ -118,7 +114,7 @@ export const ServicesSection = (): JSX.Element => {
 
                   <Button
                     type="submit"
-                    className="w-full sm:w-[188px] h-[56px] sm:h-[70px] rounded-[20.07px] text-base sm:text-[22.3px] font-bold text-white tracking-tight shadow-[inset_0px_-6.69px_22.3px_#bd72f5,0px_15.61px_26.76px_#5409886b] bg-gradient-to-r from-[rgba(83,69,238,1)] via-[rgba(122,33,221,1)] to-[rgba(133,22,216,1)]"
+                    className="w-full sm:w-[188px] h-[56px] sm:h-[70px] rounded-[20.07px] text-base sm:text-[22.3px] font-bold text-white tracking-tight shadow-[inset_0px_-6.69px_22.3px_#bd72f5,0px_15.61px_26.76px_#5409886b] bg-gradient-to-r from-[rgba(83,69,238,1)] via-[rgba(122,33,221,1)] to-[rgba(133,22,216,1)]  plausible-event-name=Partner+With+Us"
                   >
                     Submit
                   </Button>

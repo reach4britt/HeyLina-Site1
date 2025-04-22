@@ -28,7 +28,7 @@ export const Home = (): JSX.Element => {
             </p>
 
             <a href="#signup">
-              <Button className="mt-6 w-full sm:w-[273px] h-[60px] rounded-[18px] shadow font-bold text-white text-xl tracking-[-0.6px] bg-gradient-to-r from-[#5345ee] via-[#7a21dd] to-[#8516d8]">
+              <Button className="mt-6 w-full sm:w-[273px] h-[60px] rounded-[18px] shadow font-bold text-white text-xl tracking-[-0.6px] bg-gradient-to-r from-[#5345ee] via-[#7a21dd] to-[#8516d8]  plausible-event-name=Sign+Up+Now">
                 Sign Up Now!
               </Button>
             </a>
