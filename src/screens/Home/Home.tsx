@@ -1,11 +1,9 @@
 import { Button } from "../../components/ui/button";
 import { Card } from "../../components/ui/card";
 import { ContactSection } from "./sections/ContactSection";
-import { FAQSection } from "./sections/FAQSection";
 import { HeroSection } from "./sections/HeroSection";
 import { IntroductionSection } from "./sections/IntroductionSection";
 import { InvestorSection } from "./sections/InvestorSection";
-import { ServicesSection } from "./sections/ServicesSection";
 
 export const Home = (): JSX.Element => {
   return (
@@ -27,17 +25,11 @@ export const Home = (): JSX.Element => {
               <span className="font-semibold"> at your fingertips!</span>
             </p>
 
-            <a href="#signup">
+            <a href="https://ask.heylina.ai/" target="_blank">
               <Button className="mt-6 w-full sm:w-[273px] h-[60px] rounded-[18px] shadow font-bold text-white text-xl tracking-[-0.6px] bg-gradient-to-r from-[#5345ee] via-[#7a21dd] to-[#8516d8]  plausible-event-name=Sign+Up+Now">
-                Sign Up Now!
+                Ask HeyLina!
               </Button>
             </a>
-
-            <img
-              className="absolute top-[29px] right-[38px] w-[48px] h-[48px] sm:w-[67px] sm:h-[67px]"
-              alt="Menu"
-              src="https://c.animaapp.com/DzXLCUcv/img/menu.png"
-            />
           </div>
 
           <img
@@ -49,7 +41,7 @@ export const Home = (): JSX.Element => {
 
         {/* Main Content */}
         <div className="w-full bg-[#f5f0ff59] flex flex-col items-center px-4">
-          {[IntroductionSection, FAQSection, HeroSection, InvestorSection, ServicesSection].map((Section, i) => (
+          {[IntroductionSection, HeroSection, InvestorSection].map((Section, i) => (
             <Card
               key={i}
               className="w-full max-w-[1285px] mt-[67px] bg-[#f5f0ffab] rounded-[28px] border border-solid border-[#c8c8c8]"
