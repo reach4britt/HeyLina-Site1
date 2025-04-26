@@ -83,7 +83,7 @@ export const InvestorSection = (): JSX.Element => {
                 : "bg-white border-[#8081874f]"
             }`}
           >
-            <AccordionTrigger className={`px-4 sm:px-6 py-5 sm:py-6 hover:no-underline plausible-event-name=FAQ-${item.id}`}>
+            <AccordionTrigger className="px-4 sm:px-6 py-5 sm:py-6 hover:no-underline">
               <div className="flex items-center w-full">
                 <div
                   className={`w-10 h-10 sm:w-[42px] sm:h-[42px] rounded-xl flex items-center justify-center ${
